@@ -1,49 +1,51 @@
 export const SITE = {
-	title: 'Oliminator Odkazy',
-	description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, placeat!',
-	url: 'https://odkazy.oliminator.net',
+	title: 'Butwm Links',
+	description: '',
+	url: 'https://links.butwm.dev',
 	themeColor: '#f9f9f1',
 };
 
 export const OPEN_GRAPH = {
 	image: {
-		src: 'og_image.png',
-		alt: 'Odkazy text s tlačítkami',
+		src: 'https://cdn.discordapp.com/avatars/795996972758204426/1fedd8ab05818df52c73fc621bb8f816?size=1024',
+		alt: 'Links',
 	},
-	twitter: 'oliminator34',
+	discord: 'but_gg',
 };
 
 export const BUTTONS = [
 	{
-		name: 'Môj Minecraft Server',
-		background: 'bg-lendmark hover:bg-lendmark/80',
-		href: 'https://go.oliminator.net/lendmark',
-	},
-	{
-		name: 'TikTok',
-		background: 'bg-tiktok hover:bg-tiktok/80',
-		href: 'https://go.oliminator.net/titok',
-	},
-	{
-		name: 'YouTube',
-		background: 'bg-youtube hover:bg-youtube/80',
-		href: 'https://go.oliminator.net/youtube',
-	},
-
-	{
-		name: 'Instagram',
-		background: 'bg-instagram hover:bg-instagram/80',
-		href: 'https://go.oliminator.net/instagram',
-	},
-	{
 		name: 'GitHub',
 		background: 'bg-github hover:bg-github/80',
-		href: 'https://go.oliminator.net/github',
+		href: 'https://github.com/Butwm',
 	},
 	{
 		name: 'Discord',
 		background: 'bg-discord hover:bg-discord/80',
-		href: 'https://discord.lendmark.sk/',
+		href: 'https://discordapp.com/users/795996972758204426',
 	},
-	,
+	{
+		name: 'Dev',
+		background: 'bg-dev hover:bg-dev/80',	
+	},
+	{
+		name: 'Ko-fi',
+		background: 'bg-kofi hover:bg-kofi/80',
+		href: 'https://ko-fi.com/Butwm',
+	},
+	{
+		name: 'Threads',
+		background: 'bg-threads hover:bg-threads/80',
+		href: 'https://www.threads.net/@butwm.dev',
+	},
+	{
+		name: 'HackerOne',
+		background: 'bg-discord/90 hover:bg-discord/60',
+		href: 'https://hackerone.com/butwm',
+	},
+	{
+		name: 'Website',
+		background: 'bg-vue hover:bg-vue/80',
+		//Todo: add website URL
+	}
 ];
