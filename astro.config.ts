@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 import compress from 'astro-compress';
 import robotsTxt from 'astro-robots-txt';
 
-import { SITE } from '/links/src/config';
+import { SITE } from './src/config';
 
 // https://astro.build/config
 export default defineConfig({
