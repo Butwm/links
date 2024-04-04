@@ -1,0 +1,17 @@
+---
+import HeadCommon from '../components/HeadCommon.astro';
+import HeadSEO from '../components/HeadSEO.astro';
+import ThemeSwitch from '../components/theme-switch.astro';
+---
+
+<!DOCTYPE html>
+<html dir="ltr" lang="sk-SK">
+	<head>
+		<HeadCommon />
+		<HeadSEO />
+	</head>
+	<body class="dark:bg-[#1a1a1d] bg-[#c1bdc4cb] overflow-x-hidden">
+		<ThemeSwitch />
+		<slot />
+	</body>
+</html>
