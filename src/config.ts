@@ -1,7 +1,7 @@
 export const SITE = {
 	title: 'Butwm Links',
 	description: '',
-	url: 'https://links.butwm.dev',
+	url: 'https://links.github.io',
 	themeColor: '#f9f9f1',
 };
 
