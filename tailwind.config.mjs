@@ -27,7 +27,7 @@ export default {
 				evernote: '#2dbe60',
 				facebook: '#3b5998',
 				feedly: '#2bb24c',
-				github: '#1a1a1d',
+				github: '#333333',
 				gitlab: '#fc6d26',
 				google: '#4285f4',
 				hackerone: '#f48024',
