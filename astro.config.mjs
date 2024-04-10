@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://butwm.github.io/',
-  base: '/links',
+  site: 'https://links.butwm.space/',
+  base: '.',
   integrations: [tailwind(), sitemap()]
 });
