@@ -54,7 +54,7 @@ export default {
 				tumblr: '#35465c',
 				twitch: '#6441a5',
 				twitter: '#1da1f2',
-				threads: '#000',
+				threads: '#1a1a1d',
 				uber: '#09091a',
 				ubuntu: '#dd4814',
 				vimeo: '#162221',
